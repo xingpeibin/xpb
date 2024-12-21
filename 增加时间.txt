@@ -1,0 +1,56 @@
+例一：
+# 获取当前的 UTC 时间
+utc_time = datetime.now(timezone.utc)
+# 北京时间
+beijing_time = utc_time + timedelta(hours=8)
+# 格式化为所需的格式
+formatted_time = beijing_time.strftime("%Y%m%d %H:%M:%S")
+
+about_video1="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
+about_video2="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
+version=formatted_time+","+about_video1
+about="关于本源,"+about_video2
+# 瘦身版
+# 
+all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ ['\n'] +\
+
+
+
+例二：
+    with open(filepath, 'w', encoding='utf-8') as output_file:
+        output_file.write("IPv4,#genre#\n")
+        output_file.write("\n".join(ipv4_lines))
+        output_file.write("\n\nIPv6,#genre#\n")
+        output_file.write("\n".join(ipv6_lines))
+
+主页MP4:https://gitee.com/xingpeibin/zb/raw/master/ds.mp4
+
+潮州综合
+潮州民生
+揭阳公共
+揭阳生活
+揭阳综合
+汕尾文化生活
+汕尾新闻综合
+汕头一台
+汕头二台
+汕头三台
+汕头新闻综合
+汕头1新闻综合
+汕头2经济生活
+汕头3影视文艺
+汕头综合
+汕头综合高清
+汕头经济
+汕头经济生活
+汕头经济生活高清
+汕头2经济生活
+汕头文
+汕头文旅
+汕头文旅体育
+汕头文旅体育高清
+汕头生活
+凤凰中文
+凤凰香港
+凤凰资讯
+凤凰卫视
